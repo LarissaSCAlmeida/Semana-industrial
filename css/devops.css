@@ -1,0 +1,118 @@
+.home{
+    width: 50px;
+}
+.body{
+    background-color: #147bb8;
+}
+.primiero {background-color: #27278d}
+
+
+.exemplo{
+    color: #fff; 
+    padding:16px;
+    list-style-type:none;
+    display: flex;
+    font-family: 'Verdana', sans-serif;
+}
+.bloco{ 
+
+    width: 300px;
+    height: 50px;
+    display: flex;
+    text-align: center;  
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+
+}
+.bloco:hover{
+    
+    background-color: #222238;
+    color: rgb(255, 255, 255);
+}
+a {
+    color: inherit; /* Mantém a cor do texto ao redor */
+    text-decoration: none; /* Remove o sublinhado */
+}
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.h1{
+    color: #27278D;
+    margin-top: 0;
+}
+p{
+    text-align: justify;
+}
+.logo{
+    
+    width: 500px;
+    height: auto;
+    
+}
+.texto1
+{
+    text-align: center;
+}
+.img2
+{
+    text-align: center;
+}   
+.negrito
+{
+    font-weight: bolder;
+    text-align: center;
+}
+.texto3
+{
+    text-align: center;
+}
+.texto4
+{
+    text-align: center;
+}
+.img4
+{
+    width: 500px;
+    height: auto; 
+}
+.texto5
+{
+    text-align: center;
+}
+.marcatexto
+{
+    background-color: #1818f7;
+}
+.h1centro
+{
+    text-align: center;
+    color: #27278D;
+    margin-top: 0;
+}
+.img5
+{
+    text-align: center;
+}
+footer
+{
+   background-color:  #27278D;/*Cor de fundo do rodape*/
+    color:#ffffff;/*cor da letra*/
+    text-align: center;/*centralizar o texto*/
+    padding: 20px 0;/*Espaço interno*/
+    position: relative;/*Fizar o rodape no final do texto*/
+    bottom: 0;
+    width: auto;/*largura da pagina*/
+}
+footer a
+{
+ color: #ffffff;/*cor do link*/
+ text-decoration: none;/*Remover o sublinhado*/
+ margin: 0 20px;/*Espaçamento entre link*/
+}
+footer a:hover
+{
+    text-decoration: underline;/*Efeito ao passar o mouse*/
+}
