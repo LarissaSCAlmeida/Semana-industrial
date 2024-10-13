@@ -3,14 +3,109 @@ body
     margin: 0;/*Remove a margem padrão da pagina*/
     padding: 0;/*Remove o espaço interno dentro do corpo da pagina*/
     overflow: hidden;/*imperde que o conteudoo limite da janela*/
-    background-color: #27278D;/*Cor da página*/
+    background-color: #27278d;/*Cor da página*/
     display: flex; /*facilita o aliamento dentro da página*/
+    justify-content: center;/*centralizar horizontalmente*/
+    align-items: center;/*Centralizar verticalmente*/
     height: 100vh;/*Defini a autura da pagina*/
     font-variant-alternates: initial;/*letra*/
 }
 .dinheiro
 {
     position: absolute;/*define o elemento dinheiro o posicionamento*/
-    width: 100%;
-    height:100%;
+    width: 100%;/*define a largura*/
+    height:100%;/*define a altura*/
+}
+.nota
+{
+    position: absolute;/*permite que as notas sejam movidas livremente da tela*/
+    top: -100px;/*posiciona a nota fora da tela para que ela cair*/
+    font-size: 2rem;/*tamanho da fonte padrão rem*/
+    animation:fall 5s linear infinite;/*para fazer a nota cair*/
+    opacity: 1;/*Transparencia da nota*/
+    left: calc(100vw * var(--random-x));/*Posição aleatória*/
+}
+@keyframes fall
+{
+    0%{
+        transform: translateY(-100px)/*indica a onde vai começar a animação no caso fora da tela*/ rotate(0deg) /*rotação*/;
+        opacity: 1;/*torna a nota opaca*/
+
+    }/*estado inicial da animação*/
+    100%{
+        transform: translateY(110vh)/*sentido que a rota desce que no caso fora da tela*/ rotate(0deg);/*para a onde a nota ira girar*/
+        opacity: 0.9;/*A nota ficar transparente no final da animação*/
+    }/*Estado Final da animação*/
+
+}/*animção especificam o estado inicial e final da animação.*/
+.nota:nth-child(1)/*selecionando diferentes notas*/
+{
+    --random-x: 0;/*definir posição horiszontal de cada nota*/
+    animation-duration: 4s;/*tempo de animação de cada nota*/
+}
+.nota:nth-child(2)/*selecionando diferentes notas*/
+{
+    --random-x: 0.05;/*definir posição horiszontal de cada nota*/
+    animation-duration: 6s;/*tempode animação de cada nota*/
+}
+.nota:nth-child(3)/*selecionando diferentes notas*/
+{
+    --random-x: 0.1;/*definir posição horiszontal de cada nota*/
+    animation-duration: 5s;/*tempode animação de cada nota*/
+}
+.nota:nth-child(4)/*selecionando diferentes notas*/
+{
+    --random-x: 0.2;/*definir posição horiszontal de cada nota*/
+    animation-duration: 5s;/*tempode animação de cada nota*/
+}
+.nota:nth-child(5)/*selecionando diferentes notas*/
+{
+    --random-x: 0.3;/*definir posição horiszontal de cada nota*/
+    animation-duration: 5s;/*tempode animação de cada nota*/
+}
+.nota:nth-child(6)/*selecionando diferentes notas*/
+{
+    --random-x: 0.35;/*definir posição horiszontal de cada nota*/
+    animation-duration: 5s;/*tempode animação de cada nota*/
+}
+.nota:nth-child(7)/*selecionando diferentes notas*/
+{
+    --random-x: 0.4;/*definir posição horiszontal de cada nota*/
+    animation-duration: 5s;/*tempode animação de cada nota*/
+}
+.nota:nth-child(8)/*selecionando diferentes notas*/
+{
+    --random-x: 0.45;/*definir posição horiszontal de cada nota*/
+    animation-duration: 5s;/*tempode animação de cada nota*/
+}
+.nota:nth-child(9)/*selecionando diferentes notas*/
+{
+    --random-x: 0.55;/*definir posição horiszontal de cada nota*/
+    animation-duration: 5s;/*tempode animação de cada nota*/
+}
+.texto
+{
+    
+    z-index: 3;/*Definir a camada que texto sera renderizado*/
+    text-align:center;/*Ficar a frente*/
+    color:  #b29146;/*Cor do texto*/
+}
+.texto h1
+{
+    font-size: 3rem;
+    margin:0;
+    padding:0;
+}
+.botao
+{
+    background-color: #b29146;/*cor de fundo do texto*/
+    color: #ffffff;/*cor do texto*/
+    border-color: #b29146;/*cor da borda*/
+    height: 50px;/*altura do botão*/
+    width: 200px;/*largura do botão*/
+    font-size: medium;/*propreidade da fonte do botão*/
+    border-radius: 30px;/*Arredonda as bordas com pixels*/
+    margin-top: 100px;
+
+    
 }
