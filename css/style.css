@@ -1,0 +1,16 @@
+body
+{
+    margin: 0;/*Remove a margem padrão da pagina*/
+    padding: 0;/*Remove o espaço interno dentro do corpo da pagina*/
+    overflow: hidden;/*imperde que o conteudoo limite da janela*/
+    background-color: #27278D;/*Cor da página*/
+    display: flex; /*facilita o aliamento dentro da página*/
+    height: 100vh;/*Defini a autura da pagina*/
+    font-variant-alternates: initial;/*letra*/
+}
+.dinheiro
+{
+    position: absolute;/*define o elemento dinheiro o posicionamento*/
+    width: 100%;
+    height:100%;
+}
