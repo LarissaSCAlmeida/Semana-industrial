@@ -44,8 +44,9 @@ body{
     margin-top: 0;
 }
 p{
-    text-align: justify;
+    text-align:justify;
 }
+
 .logo{
     
     width: 500px;
@@ -84,7 +85,8 @@ p{
 }
 .marcatexto
 {
-    background-color: #1818f7;
+    background-color: #27278D;
+    color: #fff;
 }
 .h1centro
 {
@@ -100,7 +102,7 @@ footer
 {
    background-color:  #27278D;/*Cor de fundo do rodape*/
     color:#ffffff;/*cor da letra*/
-    text-align: center;/*centralizar o texto*/
+    text-align:left;/*centralizar o texto*/
     padding: 20px 0;/*Espaço interno*/
     position: relative;/*Fizar o rodape no final do texto*/
     bottom: 0;
@@ -115,4 +117,8 @@ footer a
 footer a:hover
 {
     text-decoration: underline;/*Efeito ao passar o mouse*/
+}
+
+.p{
+    text-align:center;
 }
