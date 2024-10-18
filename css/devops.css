@@ -3,6 +3,7 @@
 }
 .body{
     background-color: #147bb8;
+    background-color: lightblue;
 }
 .primiero {background-color: #27278d}
 
@@ -16,8 +17,8 @@
 }
 .bloco{ 
 
-    width: 300px;
-    height: 50px;
+    width: 320px;
+    height: 60px;
     display: flex;
     text-align: center;  
     align-items: center;
@@ -39,12 +40,17 @@ body{
     margin-right: 10%;
 }
 
-.h1{
+h1
+{
+    margin-top: 20px;
+    font-size: 2.5rem;
     color: #27278D;
-    margin-top: 0;
+    text-align: center;
+
 }
-p{
-    text-align:justify;
+.h1-sem-centro
+{
+    text-align:left;
 }
 
 .logo{
@@ -53,9 +59,16 @@ p{
     height: auto;
     
 }
-.texto1
-{
-    text-align: center;
+.texto-home{
+position: relative;
+color: rgb(107, 105, 105);
+font-size: 1rem;
+font-weight: bold;
+z-index: 1;
+text-align:left;
+margin: 20px;
+width: 60%;
+padding-left: 20px;/*Espaço entre a imagem e o texto*/
 }
 .img2
 {
@@ -66,10 +79,39 @@ p{
     font-weight: bolder;
     text-align: center;
 }
-.texto3
+.container 
 {
-    text-align: center;
+ display: flex;/*organizar a imagem e o texto lado a lado*/
+ align-items: center;
+ justify-content: space-between;/*Espaço entre a imagem e o texto*/
+padding: 5px;
 }
+.texto-scrum
+{
+    position: relative;
+    color: rgb(107, 105, 105);
+    font-size: 1rem;
+    font-weight: bold;
+    z-index: 1;
+    text-align:left;
+    margin: 20px;
+    width: 60%;
+    padding-left: 20px;/*Espaço entre a imagem e o texto*/
+
+}   
+.img-scrum
+{
+    position: relative;
+    width: 800px;
+    height: auto;
+    background-size: cover;/*faz a imagem ocupa pontos necessarios*/
+    background-position: center;/*centraliza a imagem*/
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+
+    
+} 
 .texto4
 {
     text-align: center;
