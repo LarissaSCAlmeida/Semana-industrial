@@ -18,9 +18,9 @@
 }
 .carrosel-item img
 {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;/*a imagem sera redimesionadas para cobri completamente o retagulo*/
+    width: 95%;
+    height: 85%;
+    object-fit:cover;/*a imagem sera redimesionadas para cobri completamente o retagulo*/
     opacity: 0.3;
 }
 .carrosel-texto-antes
@@ -34,6 +34,7 @@
     justify-content: center;/*alinha o texto*/
     align-items:first center;/*alinha o texto*/
     color: #27278D;
+    font-family: 'Oswald', sans-serif;
 }
 .carrosel-texto-depois
 {
@@ -53,6 +54,7 @@
     transition: opacity 0.5s ease;/*Transição suave*/
     margin: 2px;
     padding: auto;
+    font-family: 'Roboto', sans-serif;
 }
 .carrosel-item:hover .carrosel-texto-antes
 {

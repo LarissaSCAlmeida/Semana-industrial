@@ -22,7 +22,7 @@ body
     padding:16px;
     list-style-type:none;
     display: flex;
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Oswald', sans-serif;  
 }
 .bloco{ 
 
@@ -58,12 +58,14 @@ a {
     z-index: 3;/*Definir a camada que texto sera renderizado*/
     text-align:center;/*Ficar a frente*/
     color:  #b29146;/*Cor do texto*/
+    font-family: 'Roboto', sans-serif;
 }
 .texto h1
 {
     font-size: 3rem;
     margin:0;
     padding:0;
+    font-family: 'Oswald', sans-serif;
 }
 .botao
 {
@@ -72,7 +74,7 @@ a {
     border-color: #b29146;/*cor da borda*/
     height: 50px;/*altura do botão*/
     width: 200px;/*largura do botão*/
-    font-size:larger;/*propreidade da fonte do botão*/
+    font-family: 'Oswald', sans-serif;/*propreidade da fonte do botão*/
     border-radius: 30px;/*Arredonda as bordas com pixels*/
     margin-top: 50px;
 

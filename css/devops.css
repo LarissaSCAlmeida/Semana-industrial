@@ -13,7 +13,7 @@
     padding:16px;
     list-style-type:none;
     display: flex;
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 .bloco{ 
 
@@ -40,17 +40,20 @@ body{
     margin-right: 10%;
 }
 
-h1
+.h1-fora-carrosel
 {
     margin-top: 20px;
     font-size: 2.5rem;
     color: #27278D;
     text-align: center;
+    font-family: 'Oswald', sans-serif;
 
 }
 .h1-sem-centro
 {
     text-align:left;
+    color: #27278D;
+    font-family: 'Oswald', sans-serif;
 }
 
 .logo{
@@ -69,6 +72,7 @@ text-align:left;
 margin: 20px;
 width: 60%;
 padding-left: 20px;/*Espaço entre a imagem e o texto*/
+font-family: 'Roboto', sans-serif;
 }
 .img2
 {
@@ -85,6 +89,7 @@ padding-left: 20px;/*Espaço entre a imagem e o texto*/
  align-items: center;
  justify-content: space-between;/*Espaço entre a imagem e o texto*/
 padding: 5px;
+font-family: 'Roboto', sans-serif;
 }
 .texto-scrum
 {
@@ -97,6 +102,7 @@ padding: 5px;
     margin: 20px;
     width: 60%;
     padding-left: 20px;/*Espaço entre a imagem e o texto*/
+    font-family: 'Roboto', sans-serif;
 
 }   
 .img-scrum
@@ -112,34 +118,7 @@ padding: 5px;
 
     
 } 
-.texto4
-{
-    text-align: center;
-}
-.img4
-{
-    width: 500px;
-    height: auto; 
-}
-.texto5
-{
-    text-align: center;
-}
-.marcatexto
-{
-    background-color: #27278D;
-    color: #fff;
-}
-.h1centro
-{
-    text-align: center;
-    color: #27278D;
-    margin-top: 0;
-}
-.img5
-{
-    text-align: center;
-}
+
 footer
 {
    background-color:  #27278D;/*Cor de fundo do rodape*/
@@ -163,4 +142,9 @@ footer a:hover
 
 .p{
     text-align:center;
+}
+.lista
+{
+    text-align:start;
+    color: #27278D;
 }
