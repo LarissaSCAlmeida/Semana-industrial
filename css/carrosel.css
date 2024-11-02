@@ -1,13 +1,15 @@
+
 .carrosel
 {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top:  20px;
     gap: 20px;/*Aplica espaçamento entelinhas e colunas*/
     text-align: center;
-    background-color:aliceblue;
+    background-color:#ffffff;
     margin: 0;
     padding: 0;
+    font-variant-alternates: initial;/*letra*/
 }
 .carrosel-item
 {
@@ -22,6 +24,7 @@
     height: 85%;
     object-fit:cover;/*a imagem sera redimesionadas para cobri completamente o retagulo*/
     opacity: 0.3;
+   align-items: center;
 }
 .carrosel-texto-antes
 {
@@ -34,7 +37,7 @@
     justify-content: center;/*alinha o texto*/
     align-items:first center;/*alinha o texto*/
     color: #27278D;
-    font-family: 'Oswald', sans-serif;
+    font-variant-alternates: initial;/*letra*/
 }
 .carrosel-texto-depois
 {
@@ -48,13 +51,13 @@
     align-items: center;
     background-color:#27278D;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     z-index: 1;/*Definir qual elemento ficar por cima ou por baixo*/
     opacity: 0;/*como vai aparecer com o passar do mouse a opacidade deve ser total antes*/
     transition: opacity 0.5s ease;/*Transição suave*/
-    margin: 2px;
+    margin: 4px;
     padding: auto;
-    font-family: 'Roboto', sans-serif;
+    font-variant-alternates: initial;/*letra*/
 }
 .carrosel-item:hover .carrosel-texto-antes
 {

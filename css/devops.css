@@ -1,6 +1,10 @@
 .home{
     width: 50px;
 }
+body{
+    font-family: "Viga", sans-serif;
+}
+
 .body{
     background-color: #147bb8;
     background-color: lightblue;
@@ -46,14 +50,15 @@ body{
     font-size: 2.5rem;
     color: #27278D;
     text-align: center;
-    font-family: 'Oswald', sans-serif;
+    font-variant-alternates: initial;/*letra*/
 
 }
 .h1-sem-centro
 {
     text-align:left;
     color: #27278D;
-    font-family: 'Oswald', sans-serif;
+    font-variant-alternates: initial;/*letra*/
+    text-align: center;
 }
 
 .logo{
@@ -82,6 +87,7 @@ font-family: 'Roboto', sans-serif;
 {
     font-weight: bolder;
     text-align: center;
+    font-variant-alternates: initial;/*letra*/
 }
 .container 
 {

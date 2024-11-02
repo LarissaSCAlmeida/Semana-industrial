@@ -1,9 +1,11 @@
+
 body
 {
+    font-family: "Viga", sans-serif;
     margin: 0;/*Remove a margem padrão da pagina*/
     padding: 0;/*Remove o espaço interno dentro do corpo da pagina*/
     overflow: hidden;/*imperde que o conteudoo limite da janela*/
-    background-color: #27278d;/*Cor da página*/
+    background-color: #f0f0f3;/*Cor da página*/
     font-variant-alternates: initial;/*letra*/
 
     /*display: flex; facilita o aliamento dentro da página
@@ -14,11 +16,11 @@ body
 .home{
     width: 50px;
 }
-.primiero {background-color: #ffffff}
+.primiero {background-color: #27278D}
 
 
 .exemplo{
-    color: #fff; 
+    color: #27278D; 
     padding:16px;
     list-style-type:none;
     display: flex;
@@ -37,7 +39,7 @@ body
 }
 .bloco:hover{
     
-    background-color: #27278d;
+    background-color: #ffffff;
     color: rgb(255, 255, 255);
 }
 a {
@@ -52,7 +54,7 @@ a {
 h2
 {
     font-family: 'Roboto', sans-serif;
-    color: #b29146;
+    color: #27278D;
 }
 
 
@@ -61,30 +63,52 @@ h2
     
     z-index: 3;/*Definir a camada que texto sera renderizado*/
     text-align:center;/*Ficar a frente*/
-    color:  #b29146;/*Cor do texto*/
+    color:  #27278D;/*Cor do texto*/
 }
 .texto h1
 {
     font-size: 3rem;
     margin:0;
     padding:0;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Viga", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .botao
 {
-    background-color: #b29146;/*cor de fundo do texto*/
-    color: #27278d;/*cor do texto*/
-    border-color: #b29146;/*cor da borda*/
+    background-color: #27278D;/*cor de fundo do texto*/
+    color: #ffffff;/*cor do texto*/
+    border-color: #ffffff;/*cor da borda*/
     height: 50px;/*altura do botão*/
     width: 200px;/*largura do botão*/
-    font-family: 'Oswald', sans-serif;/*propreidade da fonte do botão*/
-    border-radius: 30px;/*Arredonda as bordas com pixels*/
-    margin-top: 50px;
-
+    border-radius: 40px;/*Arredonda as bordas com pixels*/
+    margin-top: 5px;
+    font-weight: 600;
     
 }
 .img1
 {
-    width: 200px;
+    width: 260px;
     height: auto;
+}
+footer
+{
+   background-color:  #27278D;/*Cor de fundo do rodape*/
+    color:#ffffff;/*cor da letra*/
+    text-align:center;/*centralizar o texto*/
+    padding: 10px 0;/*Espaço interno*/
+    position: relative;/*Fizar o rodape no final do texto*/
+    bottom: 0;
+    width: auto;/*largura da pagina*/
+    margin: 5px;
+}
+footer a
+{
+ color: #ffffff;/*cor do link*/
+ text-decoration: none;/*Remover o sublinhado*/
+ margin: 10px;/*Espaçamento entre link*/
+}
+footer a:hover
+{
+    text-decoration: underline;/*Efeito ao passar o mouse*/
 }
